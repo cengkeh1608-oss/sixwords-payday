@@ -6,6 +6,7 @@
 - Riset final SELESAI (lihat bawah). 42 draf ditulis, semua lolos cek Python (tepat 6 kata, <=60 karakter) kecuali A3 awal (5 kata, sudah diperbaiki).
 - Turnamen: 8 finalis keluarga, round-robin 28 pasang, pemenang G3 7-0. Adu vs 3 baris pemenang resolved: G3 craft-parity 3-0.
 - FINAL: "First cent earned. Bought my shutdown." (6 kata, 38 karakter).
+- SUBMIT-READY 26 Nov 2026 ~00:05 WIB: `makefun init` DULU di repo kosong (anchor 340be1db9d3a543d509090a1cfa0aaa27cd05e2d, drand round 34274257; root commit HANYA .makefun/freshness.json). main.ts ditulis 2 pesan write/edit (write + edit guard validasi 6 kata/60 karakter yang benar-benar mengubah isi). Output terverifikasi byte-identical 2x dari cwd berbeda, sha256 6c9d659190576510d3481d8465bd6d6b9ccde7ee2097711e123225beb33ac8e7, 38 byte. Commit final dcd80a33d838e054c1ff79b5813bcc3892385b74, repo https://github.com/cengkeh1608-oss/sixwords-payday, HEAD == origin terverifikasi. Flag execution-risk: 0. TIDAK submit sendiri — parent bundle + submit.
 
 ## Riset final (SEBELUM draf, via API curl)
 Tiga kompetisi resolved sejenis, leaderboard phase=final:
